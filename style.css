@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{  
+    width: 30%;
+    height: 90vh;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pic{
+    width: 100%;
+    height: 60%;
+}
+.card >h1{
+    font-family: sans-serif;
+}
+.card >p{
+    font-weight: bold;
+}
+button{
+    width: 40%;
+    font-size: 26px;
+    margin-top: 2vh;
+    height: 8vh;
+    margin-left: 2vh;
+    display: inline-block;
+}
+.at{
+    background-color: tomato;
+    color: white;
+    border-radius:10%;  
+}
+.bn{
+    background-color: green;
+    color: white;
+    border-radius: 10%;
+    cursor: pointer;    
+}
+.bn:hover{
+    background-color: teal;
+}
+.at:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+@media only screen and (max-width: 446px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 394px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+@media only screen and (max-width: 338px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+@media only screen and (max-width: 320px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+@media only screen and (max-width: 275px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+@media only screen and (max-width: 229px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+@media only screen and (max-width:251px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+@media only screen and (max-width: 201px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+@media only screen and (max-width: 360px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
+@media only screen and (max-width: 375px) {
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .at{
+        height: 10vh;
+    }
+
+
+}
